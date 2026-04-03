@@ -1,5 +1,5 @@
 ---
-title: "ML Model"
+title: "ML Model (sample)"
 date: 2026-02-19
 tags: ["Python", "SciPy", "SQL", "Docker"]
 featured_image: "/images/project-thumbnail.png"

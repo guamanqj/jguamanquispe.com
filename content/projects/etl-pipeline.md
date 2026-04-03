@@ -1,5 +1,5 @@
 ---
-title: "Automated ETL & Predictive Analytics Pipeline"
+title: "Automated ETL & Predictive Analytics Pipeline (sample)"
 date: 2026-02-19
 tags: ["Python", "SQL", "ETL", "Scipy"]
 summary: "Built a robust data pipeline for job market analysis."
