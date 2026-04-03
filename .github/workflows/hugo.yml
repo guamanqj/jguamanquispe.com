@@ -1,10 +1,12 @@
+# Reconfigured for Data Engineer Portfolio | Node.js 24 & Hugo Extended
 name: Deploy Hugo site to Pages
 
 on:
   push:
     branches: ["main"]
+  workflow_dispatch:
 
-# This silences the Node 20/24 warning you saw earlier
+# Environment variable to opt into Node.js 24 runner behavior in 2026
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
@@ -13,6 +15,14 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -20,6 +30,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          # Crucial for the Hugo Coder theme
           submodules: recursive
           fetch-depth: 0
 
@@ -27,18 +38,26 @@ jobs:
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
+          # Required for Coder theme's CSS/SCSS
           extended: true
 
-      - name: Build
-        # We use 'cd' to step into your folder before running hugo
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build with Hugo
+        env:
+          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
+          HUGO_ENVIRONMENT: production
         run: |
-          cd ./public
-          hugo --minify
+          hugo \
+            --minify \
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # This tells GitHub exactly where the generated HTML is
+          # Points to root /public since you moved files out of my-profile
           path: ./public
 
   deploy:
@@ -50,4 +69,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
