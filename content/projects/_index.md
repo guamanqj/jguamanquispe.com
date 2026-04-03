@@ -1,5 +1,5 @@
 ---
-title: "Projects"
+title: "Projects (Coming Soon!)"
 date: 2026-02-19
 url: "/projects"
 ---
