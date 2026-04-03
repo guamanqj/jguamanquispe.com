@@ -1,5 +1,5 @@
 # config.toml
-baseURL = "https://guamanqj.github.io/"
+baseURL = "https://guamanqj.github.io/jguamanquispe.com/"
 #baseURL = "https://jguamanquispe.com/"
 languageCode = "en"
 title = "Professional Portfolio | Data Engineer & Scientist"
