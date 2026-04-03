@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Professional Portfolio | Data Engineer &amp; Scientist</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Projects on Professional Portfolio | Data Engineer &amp; Scientist</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 19 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>Data Engineer with 11+ years of experience in ETL, BI, and Scalable Data Architecture.</description>
+    </item>
+    <item>
+      <title>Automated ETL &amp; Predictive Analytics Pipeline</title>
+      <link>http://localhost:1313/projects/etl-pipeline/</link>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/etl-pipeline/</guid>
+      <description>Built a robust data pipeline for job market analysis.</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;style&gt;&#xA;  .content, .post, body, article {&#xA;      font-weight: 400;&#xA;      line-height: 1.6;&#xA;      background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%);&#xA;      /* background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); */&#xA;      color: white;&#xA;  }&#xA;&#xA;  p, ul {&#xA;    color: #F1F5F9; &#xA;    line-height: 1.6;&#xA;  }&#xA;&#xA;  /* Secondary info like dates or &#34;2024&#34; */&#xA;  .text-muted {&#xA;    color: #CBD5E1;&#xA;    font-size: 0.9rem;&#xA;  }&#xA;&#xA;  h1 {&#xA;    color: #F1F5F9;&#xA;    display: inline-block;&#xA;    border-bottom: 1px solid #EAB308; /* Matches the gold/yellow in your screenshot */&#xA;    padding-bottom: 5px;&#xA;    margin-bottom: 20px;&#xA;  }&#xA;  &#xA;  h2, h3, h4 {&#xA;      color: #FBBF24 !important; &#xA;      font-weight: 700 !important;&#xA;  }&#xA;  &#xA;  .social-icon:hover {&#xA;      filter: drop-shadow(0 0 8px #F59E0B);&#xA;  }&#xA;&#xA;  /* Target the navigation title specifically */&#xA;    .navigation-title {&#xA;      color: #F1F5F9 !important; /* Pure Red */&#xA;      font-weight: 700 !important;&#xA;    }&#xA;&#xA;  /* Optional: Change the color when you hover over it */&#xA;  .navigation-title:hover {&#xA;    color: #F59E0B !important; /* Darker Red on hover */&#xA;  }&#xA;&#xA;  /* Style the individual links */&#xA;  .navigation-link {&#xA;    color: #42a3ff !important; /* Slate Gray */&#xA;    font-weight: 400;&#xA;    transition: color 0.3s ease;&#xA;  }&#xA;&#xA;  /* Change color on hover to match your H1/H2 */&#xA;  .navigation-link:hover, .navigation-link:focus {&#xA;    color: #FBBF24 !important; /* Your Glowing Amber */&#xA;  }&#xA;    &#xA;  /* Normal state for general links */&#xA;  a {&#xA;      color: #94A3B8;&#xA;      transition: all 0.3s ease;&#xA;      text-decoration: none;&#xA;      border-bottom: 1px solid transparent;&#xA;  }&#xA;  &#xA;  /* Hover state for general links */&#xA;  a:hover {&#xA;      color: #FBBF24;&#xA;      border-bottom: 1px solid #FBBF24;&#xA;  }&#xA;  &#xA;  /* Specific styling for your Logic Amber buttons */&#xA;  .button {&#xA;      background-color: #F59E0B;&#xA;      color: #0f172a !important; /* Keep text dark for contrast */&#xA;  }&#xA;  &#xA;  .button:hover {&#xA;      background-color: #FBBF24;&#xA;      box-shadow: 0 0 15px rgba(245, 158, 11, 0.4); /* Subtle glow */&#xA;      transform: translateY(-2px);&#xA;  }&#xA;&lt;/style&gt;&#xA;&lt;h2 id=&#34;get-in-touch&#34;&gt;&#xA;  Get In Touch&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#get-in-touch&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Whether you are looking to discuss a &lt;strong&gt;Data Engineering&lt;/strong&gt; opportunity, a &lt;strong&gt;Data Science&lt;/strong&gt; collaboration, or just want to talk about the latest trends in AI and ETL architecture.  I’d love to hear from you.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Experience</title>
+      <link>http://localhost:1313/experience/</link>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experience/</guid>
+      <description>&lt;style&gt;&#xA;  .content, .post, body, article {&#xA;      font-weight: 400;&#xA;      line-height: 1.6;&#xA;      background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%);&#xA;      /* background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); */&#xA;      color: white;&#xA;  }&#xA;&#xA;  p, ul {&#xA;    color: #F1F5F9; &#xA;    line-height: 1.6;&#xA;  }&#xA;&#xA;  /* Secondary info like dates or &#34;2024&#34; */&#xA;  .text-muted {&#xA;    color: #CBD5E1;&#xA;    font-size: 0.9rem;&#xA;  }&#xA;&#xA;  h1 {&#xA;    color: #F1F5F9;&#xA;    display: inline-block;&#xA;    border-bottom: 1px solid #EAB308; /* Matches the gold/yellow in your screenshot */&#xA;    padding-bottom: 5px;&#xA;    margin-bottom: 20px;&#xA;  }&#xA;  &#xA;  h2, h3, h4 {&#xA;      color: #FBBF24 !important; &#xA;      font-weight: 700 !important;&#xA;  }&#xA;  &#xA;  .social-icon:hover {&#xA;      filter: drop-shadow(0 0 8px #F59E0B);&#xA;  }&#xA;&#xA;  /* Target the navigation title specifically */&#xA;    .navigation-title {&#xA;      color: #F1F5F9 !important; /* Pure Red */&#xA;      font-weight: 700 !important;&#xA;    }&#xA;&#xA;  /* Optional: Change the color when you hover over it */&#xA;  .navigation-title:hover {&#xA;    color: #F59E0B !important; /* Darker Red on hover */&#xA;  }&#xA;&#xA;  /* Style the individual links */&#xA;  .navigation-link {&#xA;    color: #42a3ff !important; /* Slate Gray */&#xA;    font-weight: 400;&#xA;    transition: color 0.3s ease;&#xA;  }&#xA;&#xA;  /* Change color on hover to match your H1/H2 */&#xA;  .navigation-link:hover, .navigation-link:focus {&#xA;    color: #FBBF24 !important; /* Your Glowing Amber */&#xA;  }&#xA;    &#xA;  /* Normal state for general links */&#xA;  a {&#xA;      color: #94A3B8;&#xA;      transition: all 0.3s ease;&#xA;      text-decoration: none;&#xA;      border-bottom: 1px solid transparent;&#xA;  }&#xA;  &#xA;  /* Hover state for general links */&#xA;  a:hover {&#xA;      color: #FBBF24;&#xA;      border-bottom: 1px solid #FBBF24;&#xA;  }&#xA;  &#xA;  /* Specific styling for your Logic Amber buttons */&#xA;  .button {&#xA;      background-color: #F59E0B;&#xA;      color: #0f172a !important; /* Keep text dark for contrast */&#xA;  }&#xA;  &#xA;  .button:hover {&#xA;      background-color: #FBBF24;&#xA;      box-shadow: 0 0 15px rgba(245, 158, 11, 0.4); /* Subtle glow */&#xA;      transform: translateY(-2px);&#xA;  }&#xA;&lt;/style&gt;&#xA;&lt;h2 id=&#34;professional-journey&#34;&gt;&#xA;  Professional Journey&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#professional-journey&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;I am a Data Engineering professional with 11+ years of expertise across Data Engineering, BI Architecture, and Predictive Modeling. Currently, I am looking to pivot my career into Data Science, where I can apply my extensive background in data architecture and infrastructure to build scalable, high-impact machine learning solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ML Model</title>
+      <link>http://localhost:1313/projects/ml-model/</link>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ml-model/</guid>
+      <description>A brief 1-2 sentence hook about what this project solves.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  Automated ETL &amp; Predictive Analytics Pipeline · Professional Portfolio | Data Engineer &amp; Scientist
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Johnny R. Guamanquispe">
+<meta name="description" content="Built a robust data pipeline for job market analysis.">
+<meta name="keywords" content="data engineering, data science, python, sql, etl">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Automated ETL & Predictive Analytics Pipeline">
+  <meta name="twitter:description" content="Built a robust data pipeline for job market analysis.">
+
+<meta property="og:url" content="http://localhost:1313/projects/etl-pipeline/">
+  <meta property="og:site_name" content="Professional Portfolio | Data Engineer & Scientist">
+  <meta property="og:title" content="Automated ETL & Predictive Analytics Pipeline">
+  <meta property="og:description" content="Built a robust data pipeline for job market analysis.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2026-02-19T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-02-19T00:00:00+00:00">
+    <meta property="article:tag" content="Python">
+    <meta property="article:tag" content="SQL">
+    <meta property="article:tag" content="ETL">
+    <meta property="article:tag" content="Scipy">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/projects/etl-pipeline/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      Professional Portfolio | Data Engineer &amp; Scientist
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/projects/">Projects</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/experience/">Experience</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/contact/">Contact</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="http://localhost:1313/projects/etl-pipeline/">
+          Automated ETL &amp; Predictive Analytics Pipeline
+        </a>
+      </h1>
+    </header>
+
+    <style>
+    .content, .post, body, article {
+        font-weight: 400;
+        line-height: 1.6;
+        background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+        color: white;
+    }
+    
+    h1, h2, h3, h4 {
+        color: #F59E0B !important; 
+        font-weight: 700 !important;
+    }
+    
+    .social-icon:hover {
+        filter: drop-shadow(0 0 8px #F59E0B);
+    }
+    
+    /* Normal state for general links */
+    a {
+        color: #94A3B8;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        border-bottom: 1px solid transparent;
+    }
+    
+    /* Hover state for general links */
+    a:hover {
+        color: #FBBF24;
+        border-bottom: 1px solid #FBBF24;
+    }
+    
+    /* Specific styling for your Logic Amber buttons */
+    .button {
+        background-color: #F59E0B;
+        color: #0f172a !important; /* Keep text dark for contrast */
+    }
+    
+    .button:hover {
+        background-color: #FBBF24;
+        box-shadow: 0 0 15px rgba(245, 158, 11, 0.4); /* Subtle glow */
+        transform: translateY(-2px);
+    }
+</style>
+<h2 id="-the-challenge">
+  🏗️ The Challenge
+  <a class="heading-link" href="#-the-challenge">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>As a Data Engineer transitioning to Data Science, I wanted to automate the collection of job postings to identify which skills are trending in 2026.</p>
+<h2 id="-my-approach">
+  🛠️ My Approach
+  <a class="heading-link" href="#-my-approach">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>I built a three-stage pipeline:</p>
+<ol>
+<li><strong>Extraction:</strong> A Python-based scraper utilizing <code>BeautifulSoup</code> and API integrations.</li>
+<li><strong>Transformation:</strong> Used <strong>SQL Window Functions</strong> and <strong>CTEs</strong> to deduplicate and normalize 50k+ records.</li>
+<li><strong>Analysis:</strong> Applied <strong>Scipy</strong> for statistical significance testing on salary differences between remote and hybrid roles.</li>
+</ol>
+<h2 id="-results">
+  📈 Results
+  <a class="heading-link" href="#-results">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<ul>
+<li>Reduced data processing time by <strong>40%</strong> through SQL optimization.</li>
+<li>Identified a <strong>15% surge</strong> in demand for Docker skills in entry-level roles.</li>
+</ul>
+<p><a href="https://github.com/guamanqj/project-repo"  class="external-link" target="_blank" rel="noopener">View Code on GitHub</a></p>
+
+  </article>
+</section>
+
+  
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+    2026
+     Johnny R. Guamanquispe 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+</html>
