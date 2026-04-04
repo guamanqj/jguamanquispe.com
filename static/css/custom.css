@@ -1,0 +1,13 @@
+
+/* This targets the navigation link for the current page */
+.navigation-list .navigation-item a:focus,
+.navigation-list .navigation-item a.active {
+  color: #F59E0B !important;
+  font-weight: 700 !important;
+  border-bottom: 2px solid #F59E0B;
+}
+
+/* This makes the hover effect match your brand */
+.navigation-list .navigation-item a:hover {
+  color: #F59E0B !important;
+}

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-  <title>Projects · Professional Portfolio | Data Engineer &amp; Scientist</title>
+  <title>Projects (Coming Soon!) · Professional Portfolio | Data Engineer &amp; Scientist</title>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="light dark">
@@ -11,17 +11,21 @@
 
 
 <meta name="author" content="Johnny R. Guamanquispe">
-<meta name="description" content="">
-<meta name="keywords" content="data engineering, data science, python, sql, etl">
+<meta name="description" content="
+
+">
+<meta name="keywords" content="data engineering, data science, python, sql, etl, pytorch">
 
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Projects">
+  <meta name="twitter:title" content="Projects (Coming Soon!)">
+  <meta name="twitter:description" content="">
 
 <meta property="og:url" content="http://localhost:1313/projects/">
   <meta property="og:site_name" content="Professional Portfolio | Data Engineer & Scientist">
-  <meta property="og:title" content="Projects">
+  <meta property="og:title" content="Projects (Coming Soon!)">
+  <meta property="og:description" content="">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
 
@@ -114,11 +118,11 @@
             </li>
           
             <li class="navigation-item">
-              <a class="navigation-link " href="/projects/">Projects</a>
+              <a class="navigation-link " href="/experience/">Experience</a>
             </li>
           
             <li class="navigation-item">
-              <a class="navigation-link " href="/experience/">Experience</a>
+              <a class="navigation-link " href="/projects/">Projects</a>
             </li>
           
             <li class="navigation-item">
@@ -138,10 +142,20 @@
   <section class="container list">
   <header>
     <h1 class="title">
-      <a class="title-link" href="http://localhost:1313/projects/">Projects</a>
+      <a class="title-link" href="http://localhost:1313/projects/">Projects (Coming Soon!)</a>
     </h1>
   </header>
-  <style>
+  <!-- this is to keep the menu as active for the current page -->
+<script>
+  document.querySelectorAll('.navigation-item a').forEach(link => {
+    if (link.href === window.location.href) {
+      link.style.color = '#F59E0B';
+      link.style.fontWeight = 'bold';
+      link.style.borderBottom = '2px solid #F59E0B';
+    }
+  });
+</script>
+<style>
   .content, .post, body, article {
       font-weight: 400;
       line-height: 1.6;
@@ -230,16 +244,6 @@
 
   <ul>
     
-    <li>
-      <span class="date">February 19, 2026</span>
-      <a class="title" href="/projects/etl-pipeline/">Automated ETL &amp; Predictive Analytics Pipeline</a>
-    </li>
-    
-    <li>
-      <span class="date">February 19, 2026</span>
-      <a class="title" href="/projects/ml-model/">ML Model</a>
-    </li>
-    
   </ul>
   
 
@@ -258,7 +262,7 @@
     ©
     
     2026
-     Johnny R. Guamanquispe 
+     jguamanquispe.com 
     ·
     
     Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.

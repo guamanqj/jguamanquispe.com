@@ -4,6 +4,17 @@ date: 2026-02-19
 url: "/projects"
 ---
 
+<!-- this is to keep the menu as active for the current page -->
+<script>
+  document.querySelectorAll('.navigation-item a').forEach(link => {
+    if (link.href === window.location.href) {
+      link.style.color = '#F59E0B';
+      link.style.fontWeight = 'bold';
+      link.style.borderBottom = '2px solid #F59E0B';
+    }
+  });
+</script>
+
 <style>
   .content, .post, body, article {
       font-weight: 400;

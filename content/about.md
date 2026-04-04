@@ -4,8 +4,32 @@ date: 2026-02-19
 url: "/about"
 summary: "Data Engineer with 11+ years of experience in ETL, BI, and Scalable Data Architecture."
 ---
+<!-- this is to keep the menu as active for the current page -->
+<script>
+  document.querySelectorAll('.navigation-item a').forEach(link => {
+    if (link.href === window.location.href) {
+      link.style.color = '#F59E0B';
+      link.style.fontWeight = 'bold';
+      link.style.borderBottom = '2px solid #F59E0B';
+    }
+  });
+</script>
 
 <style>
+
+  /* This targets the navigation link for the current page */
+  .navigation-list .navigation-item a:focus,
+  .navigation-list .navigation-item a.active {
+    color: #F59E0B !important;
+    font-weight: 700 !important;
+    border-bottom: 2px solid #F59E0B;
+  }
+
+  /* This makes the hover effect match your brand */
+  .navigation-list .navigation-item a:hover {
+    color: #F59E0B !important;
+  }
+
   .content, .post, body, article {
       font-weight: 400;
       line-height: 1.6;

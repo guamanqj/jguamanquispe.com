@@ -4,6 +4,17 @@ date: 2026-02-19
 url: "/contact"
 ---
 
+<!-- this is to keep the menu as active for the current page -->
+<script>
+  document.querySelectorAll('.navigation-item a').forEach(link => {
+    if (link.href === window.location.href) {
+      link.style.color = '#F59E0B';
+      link.style.fontWeight = 'bold';
+      link.style.borderBottom = '2px solid #F59E0B';
+    }
+  });
+</script>
+
 <style>
   .content, .post, body, article {
       font-weight: 400;
@@ -92,13 +103,13 @@ url: "/contact"
 </style>
 
 
-## Get In Touch
+## 📡 Connection Initialized
 
-Whether you are looking to discuss a **Data Engineering** opportunity, a **Data Science** collaboration, or just want to talk about the latest trends in AI and ETL architecture.  I’d love to hear from you.
+Ready to talk **Data Engineering**, **Data Science**, or the frontier of **AI architecture**? I’m always looking to connect with forward-thinking teams and fellow data enthusiasts. Let’s build something impactful — my inbox is open.
 
 ### 📬 Contact Details
 * **Email:** [jguamanquispe@gmail.com](mailto:jguamanquispe@gmail.com)
-* **Location:** New Jersey, USA (Open to Remote & Hybrid roles)
+* **Location:** *New Jersey, USA* (Open to Remote & Hybrid roles)
 
 ### 🌐 Digital Presence
 * **LinkedIn:** [linkedin.com/in/jguamanquispe](https://www.linkedin.com/in/jguamanquispe) — *Best for professional inquiries.*
@@ -107,4 +118,4 @@ Whether you are looking to discuss a **Data Engineering** opportunity, a **Data 
 ---
 
 ### ☕ Availability
-I am currently **actively seeking new opportunities** and am available for technical interviews or coffee chats. I typically respond to all inquiries within 24 hours.
+I am currently exploring my **next high-impact venture** in the **data science** space. I am available for technical interviews, networking, or discussing the latest trends in predictive modeling and cloud architecture. I take pride in being highly responsive and will return all inquiries within 24 hours.

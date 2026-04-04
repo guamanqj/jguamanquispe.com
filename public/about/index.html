@@ -14,7 +14,7 @@
 
 <meta name="author" content="Johnny R. Guamanquispe">
 <meta name="description" content="Data Engineer with 11&#43; years of experience in ETL, BI, and Scalable Data Architecture.">
-<meta name="keywords" content="data engineering, data science, python, sql, etl">
+<meta name="keywords" content="data engineering, data science, python, sql, etl, pytorch">
 
 
 
@@ -119,11 +119,11 @@
             </li>
           
             <li class="navigation-item">
-              <a class="navigation-link " href="/projects/">Projects</a>
+              <a class="navigation-link " href="/experience/">Experience</a>
             </li>
           
             <li class="navigation-item">
-              <a class="navigation-link " href="/experience/">Experience</a>
+              <a class="navigation-link " href="/projects/">Projects</a>
             </li>
           
             <li class="navigation-item">
@@ -150,7 +150,31 @@
       </h1>
     </header>
 
-    <style>
+    <!-- this is to keep the menu as active for the current page -->
+<script>
+  document.querySelectorAll('.navigation-item a').forEach(link => {
+    if (link.href === window.location.href) {
+      link.style.color = '#F59E0B';
+      link.style.fontWeight = 'bold';
+      link.style.borderBottom = '2px solid #F59E0B';
+    }
+  });
+</script>
+<style>
+
+  /* This targets the navigation link for the current page */
+  .navigation-list .navigation-item a:focus,
+  .navigation-list .navigation-item a.active {
+    color: #F59E0B !important;
+    font-weight: 700 !important;
+    border-bottom: 2px solid #F59E0B;
+  }
+
+  /* This makes the hover effect match your brand */
+  .navigation-list .navigation-item a:hover {
+    color: #F59E0B !important;
+  }
+
   .content, .post, body, article {
       font-weight: 400;
       line-height: 1.6;
@@ -305,7 +329,7 @@
     ©
     
     2026
-     Johnny R. Guamanquispe 
+     jguamanquispe.com 
     ·
     
     Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
